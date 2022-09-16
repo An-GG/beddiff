@@ -9,3 +9,9 @@ USAGE:
 - stdout is csv of diff
 - creates viewer using template from plot/index.html, places it in ./plot/
 - opens viewer using xdg-open
+
+make mesh CSVs from printer.cfg file
+```
+cd beds
+./util/klippercfg_to_beds.js ~/Downloads/printer.cfg
+```
